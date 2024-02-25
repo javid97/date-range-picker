@@ -1,0 +1,110 @@
+.date-range-picker {
+  width: 541px;
+  display: none;
+  flex-direction: column;
+  background-color: #292d33;
+  border-radius: 6px;
+}
+
+.input-container {
+  display: flex;
+  width: 300px;
+  height: 40px;
+  border: 1px solid #7c7a7a;
+  background-color: #1a1d24;
+  border-radius: 5px;
+  color: #999;
+
+}
+
+.input-container label {
+  height: 100%;
+  width: 40px;
+  display: grid;
+  place-content: center;
+  font-size: 23px;
+  cursor: pointer;
+}
+
+.close {
+  font-size: 20px;
+}
+
+.close:hover {
+  color: rgb(145, 60, 60);
+}
+
+.input {
+  height: 100%;
+  width: 300px;
+  border: none;
+  background-color: #1a1d24;
+  border-radius: 5px;
+  color: #999;
+  font-size: 20px;
+  line-height: 40px;
+  padding-left: 10px;
+  outline: none;
+}
+
+.date-format {
+  display: grid;
+  place-content: center;
+  color: #ccc;
+  font-size: 1.2rem;
+  padding: 10px 0px;
+}
+
+.left-calendar {
+  border: 1px solid #666;
+  border-left: none;
+  padding: 10px;
+}
+
+.right-calendar {
+  border: 1px solid #666;
+  border-right: none;
+  border-left: none;
+  padding: 10px;
+}
+
+.predefined-ranges-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10px;
+}
+
+.predefined-ranges {
+  display: flex;
+  gap: 10px;
+}
+
+.predefined-ranges-button {
+  font-size: 1rem;
+  color: #57caf8;
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.predefined-ranges-button:hover {
+  text-decoration: underline;
+}
+
+.ok-button {
+  background: #25b3f5;
+  border: none;
+  color: #fff;
+  padding: 8px 15px;
+  border-radius: 3px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.ok-button-disabled {
+  background: #2f4b57;
+  color: #888;
+  cursor: not-allowed;
+}
